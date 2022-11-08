@@ -1,10 +1,3 @@
-function weld(main_part,weld_to,position,orientation)
-	local new = Instance.new('Weld',main_part)
-	new.Part0 = new.Parent
-	new.Part1 = weld_to
-	new.Position = Vector3.new(position)
-	new.Orientation = Vector3.new(orientation)
-end
 function prompt_gamepass(id,plr,txt_color,txt_sucess,txt_owned,txt_cancelled)
 	local service = game:GetService('MarketplaceService')
 	local gui = Instance.new('ScreenGui',plr.PlayerGui)
