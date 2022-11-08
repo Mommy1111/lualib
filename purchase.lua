@@ -1,4 +1,4 @@
-function prompt_gamepass(id,plr,txt_color,txt_sucess,txt_owned,txt_cancelled)
+local function prompt_gamepass(id,plr,txt_color,txt_sucess,txt_owned,txt_cancelled)
 	local service = game:GetService('MarketplaceService')
 	local gui = Instance.new('ScreenGui',plr.PlayerGui)
 	gui.Name = 'purchase'
